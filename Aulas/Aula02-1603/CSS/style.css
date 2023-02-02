@@ -1,0 +1,34 @@
+body {
+    background-color: green;
+}
+
+
+
+h1 {
+    color: rgba(105, 218, 218, 0.815);
+    font-size: 50px;
+}
+/* tamanho da fonte aparece com pixels e cor com rgb ou hexa */
+img {
+    width: 300px;
+    height: 220px;
+}
+
+h2 {
+    color: darkmagenta;
+    font-size: 35px;
+}
+/* prestar atenção nos pixels, o h2 não pode ser maior que o h1 */
+
+p {
+    font-size: 16px;
+    color: darkorange;
+}
+/* 16px é o suficiente no p */
+
+a {
+    font-size: 22px;
+    color: gold;
+    text-decoration: none;
+}
+/* para tirar o sublinhado do link usar o text-decoration */

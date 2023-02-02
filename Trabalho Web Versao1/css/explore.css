@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+/* esse é 1920x1080px */
+
+html {
+    font-size: 62.5%;
+    /* 62,5% de 16px = 10px */
+    /* 1 rem = 10px */
+}
+
+body {
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+p {
+    line-height: 3.5rem;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    line-height: 1.2rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+.mercado img {
+    height: 70rem;
+}
+
+.bg-mercado {
+    background: #1c0522;
+    height: 90vh;
+}
+
+.mercado {
+    width: 80rem;
+}

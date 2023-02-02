@@ -1,0 +1,145 @@
+.all {
+    border: 1px solid;
+    height: 720px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.first {
+    border: 1px solid;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-left {
+    border: 1px solid;
+    height: 80%;
+    width: 650px;
+    margin-left: 20px;
+}
+
+.first-right {
+    border: 1px solid;
+    height: 80%;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.second {
+    border: 1px solid;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.third {
+    border: 1px solid;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.third-big {
+    border: 1px solid;
+    height: 80%;
+    width: 520px;
+}
+
+.third-smalls {
+    height: 80%;
+    width: 320px;
+}
+
+.third-up {
+    height: 45%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a {
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+    margin-right: 15px;
+}
+
+.b {
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+
+.third-down {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c {
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+    margin-right: 15px;
+}
+
+.d {
+    border: 1px solid;
+    height: 100%;
+    width: 50%;
+}
+
+.fourth {
+    border: 1px solid;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.fifth {
+    border: 1px solid;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.fifth-big {
+    border: 1px solid;
+    height: 80%;
+    width: 520px;
+}
+
+.fifth-smalls {
+    height: 80%;
+    width: 320px;
+}
+
+.fifth-up {
+    height: 45%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fifth-down {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sixth {
+    border: 1px solid;
+    height: 70px;
+    margin-top: 15px;
+}

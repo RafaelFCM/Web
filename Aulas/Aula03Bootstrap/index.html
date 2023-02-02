@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid System</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <!-- linha do grid -->
+        <div class="row">
+            <!-- 1a. coluna -->
+            <div class="col-12 col-sm-12 col-md-6">
+                <img src="./images/developer-activity-animate.svg" alt="Primeira Imagem">
+            </div>
+            <!-- fim 1a. coluna -->
+            <!-- 2a. coluna -->
+            <div class="col-12 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center ">
+                <h2 class="display-2 my-color">MyWeb</h2>
+                <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus
+                    dicta laudantium repudiandae? Tempore excepturi dolorum atque veniam ex? Alias!</p>
+                <a href="" class="btn btn-outline-my-color">Mais informações</a>
+
+            </div>
+            <!-- fim 2a. coluna -->
+        </div>
+        <!-- fim linha do grid -->
+
+        <h2 class="display-4 my-color text-center my-3">Soluções</h2>
+
+        <!-- linha do grid -->
+        <div class="row">
+            <!-- 1º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Content creation_Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">UX/UI</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 1º card -->
+
+            <!-- 2º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Iphone_Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">Mobile</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 2º card -->
+
+            <!-- 3º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Landing Page_Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">Front-End</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 3º card -->
+
+            <!-- 4º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Online team meeting _Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">Team</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 4º card -->
+
+            <!-- 5º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Social Media_Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">Social Media</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 5º card -->
+
+            <!-- 6º card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/cards/Under Constructions _Isometric.svg" class="card-img-top" alt="imagem padrão">
+                    <div class="card-body">
+                        <h5 class="card-title display-5 my-color">Back-End</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-my-color">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 6º card -->
+
+        </div>
+        <!-- fim linha do grid -->
+        <h2 class="display-4 my-color text-center my-3">Criar Conta</h2>
+
+        <form id="dados" name="dados" method="post" action="">
+            <!-- linha do grid -->
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <label for="usuario" class="form-label">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ex: usuario123" minlength="6" maxlength="15">
+                </div>
+                <div class="col-md-6 my-3">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" id="senha" name="senha" class="form-control" placeholder="Ex: html123" minlength="6" maxlength="15"> 
+                </div>
+                
+                <div class="my-3">
+                    <button class="btn btn-outline-my-color col-md-3">Cadastre-se</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- form: formularios
+method = 
+name = serve como o class e o id, serve para identificação
+action = sempre vazio (""), indica para onde as informações tem que ir uma base de dados etc endereço de uma aplicação que recupera dados, precisa de uma linguagem de prog que pega informações dos formularios. Pode repetir o name varias vezes, como o class, o id não pode
+label = etiqueta, usuario/login e senha
+
+<input type="text" id="usuario">
+<input type="password" id="senha">
+obs: type é qual conteudo será
+
+ placeholder = consegue colocar dica de preenchimento para o usuario
+
+<label for="usuario">Usuário</label>
+<input type="text" id="usuario">
+obs: quando coloca id no input e depois no for, linka um com outro, clicando na palavra usuario ele mostra o campo que deve ser digitado
+-->
+
+
+
+
+
+
+
+
+
+
+<!-- conjunto de class css = framework = bootstrap (existem site q usam versões antigas)
+é responsivo, bootstrap é mobile first (prioriza o celular)
+
+NPM (node)
+
+arquivo em produção/está o ar ele é minimizado, tira todos espaços em branco, todos comentarios, tudo, é minificado por programas.
+ai carrega mais rapido durante a aplicação
+
+Bootstrap tem 8 class:
+Container - max width de 1320px
+(na propria class colocou bg-colour (usou cor do site), colocou fluid (colado na margem))
+obs: coloca class em td, pdc bem específico
+p-1a5 = padding (é como o rem, multiplica pelo valor padrao em px); pt=padding-top, pb=padding-bottom, ps=padding-start(left), pe-padding=end(right); py=plano cartesiano(2D)
+obs: acha todas essas nomenclaturas no margin no site
+p-1a5 = margin
+
+display usa no h1, h2 etc
+
+btn-danger (cor), btn-lg(large), btn-sm(small), btn-outline(hover)
+
+img-thumbnail faz uma moldura na imagem; img-fluid deixa responsivo
+
+https://getbootstrap.com/
+
+cria padroes de cores quando usa muitas paletas/cores iguais etc:
+:root {
+    --blue-30: hsl(240, 100%, 30%);
+    --blue-50: hsl(240, 100%, 50%);
+    --blue-70: hsl(240, 100%, 70%);
+    --blue-90: hsl(240, 100%, 90%);
+}
+
+.bg-blue {
+    background-color: var(--blue-30);
+}
+
+.text-blue {
+    color: var(--blue-70);
+} -->
+
+<!-- AULA 02
+
+Botao direito, format document with beautify
+viewport = area de exibição, verifica o css/formatação e configura pra mudar em diferentes telas/dispositivos
+grid=viewport
+para usar grid precisa de uma linha (row)
+
+https://storyset.com/ = vetores (imagem vetorizada, png)
+
+lembrando, tudo que quer formatar sem usar o css precisa usar o class
+
+ColorZilla = extensão Chrome, usa para diagnosticar cores de qualquer site, ai pode pegar as config da cor e usar no css
+
+class: lead = maior e mais fino a letra
+
+baixar todos codigos -> bootstrap -> docs -> download -> css and js download
+
+class: d-flex = display:flex
+
+class: col-12 col-sm-12 col-md-6 = 
+
+obs: se segurar o alt e clicar nas coisas eu posso digitar em varios ao mesmo tempo
+
+obs: https://app.netlify.com/drop esse site serve para subir seu site
+
+obs: https://br.qr-code-generator.com/a1/?gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hH0QSj1r0-4Hgyp7KPNtgM3ssNPB0P2FXjtg8QXXOVqk7zABWs-z5RoCfloQAvD_BwE&campaignid=11082198385&adgroupid=108043693905&cpid=fd3cb0e9-b2cf-45c6-b857-5525d05f66c5&utm_source=google_c&utm_medium=cpc&utm_campaign=pr_qr_code_generisch&utm_content=qr_code_exact&utm_term=qr%20code%20generator_e&gclid=CjwKCAjwo_KXBhAaEiwA2RZ8hH0QSj1r0-4Hgyp7KPNtgM3ssNPB0P2FXjtg8QXXOVqk7zABWs-z5RoCfloQAvD_BwE esse site serve para subir o link e virar qr code
+
+https://bit.ly/3A1zGMn site do prof com conteuedo/material
+
+
+-->

@@ -1,0 +1,42 @@
+/* stylizar uma classe, precisa do ponto*/
+/* W100, W1000 = width em pixels */
+/* se não definir a width, a div ocupará toda sua janela, quando mexe na janela ela se redimensiona */
+/* 100% no height =  */
+/* 100% de width pega a pagina toda, 100vh de width não pega o todo */
+/* reset css, zerar padroes navegador, colocando *{} e margin com valor 0*/
+/* * representa todos elementos existentes na pagina */
+/* coloca */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(193, 224, 142);
+    /* background-image: url(../Images/pexels-christina-morillo-1181676.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    /* center e 50% são a mesma coisa  */
+    background-attachment: fixed;
+
+}
+/* nome da classe precisa ser igual variavel, fazer sentido */
+.bg-image-1 {
+    background-image: url(../Images/pexels-christina-morillo-1181676.jpg);
+}
+
+.bg-image-2 {
+    background-image: url(../Images/pexels-mockupeditorcom-205316.jpg);
+}
+
+.bg-image-3 {
+    background-image: url(../Images/pexels-pixabay-270404.jpg);
+}
+
+.bg-color-1 {
+    background-color: black;
+}

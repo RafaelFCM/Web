@@ -1,0 +1,54 @@
+.all {
+    border: 1px solid;
+    height: 800px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.first {
+    height: 400px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-left {
+    border: 1px solid;
+    height: 400px;
+    width: 570px;
+}
+.first-right {
+    border: 1px solid;
+    height: 400px;
+    width: 300px;
+}
+.second {
+    height: 200px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.second-1 {
+    border: 1px solid;
+    height: 200px;
+    width: 270px;
+    margin-right: 2px;
+}  
+.second-2 {
+    border: 1px solid;
+    height: 200px;
+    width: 270px;
+}
+.second-3 {
+    border: 1px solid;
+    height: 200px;
+    width: 300px;
+}
+.third {
+    border: 1px solid;
+    height: 150px;
+    width: 900px;
+    margin-top: 30px;
+}

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-blue: rgb(12, 77, 84); 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu {
+    background-color: var(--color-blue);
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.menu h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    display: flex;
+    margin-right: 25px; 
+    list-style: none;  
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-family: 'Mukta', sans-serif; 
+}
+
+.cards {
+    display: flex;
+    width: 98%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.card-1 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.card-2 {
+    margin-right: 25px;
+}
+
+.card-3 {
+    margin-right: 25px;
+}
+
+.card-1 img {
+    width: 100%;
+}
+
+.card-2 img {
+    width: 100%;
+}
+
+.card-3 img {
+    width: 100%;
+}
+
+.card-4 img {
+    width: 100%;
+}
+
+figcaption {
+    display: block;
+    padding: 15px 0;
+    text-align: left;
+}
+
+figcaption h2{
+    padding-bottom: 15px;
+}
+
+figcaption p{
+    padding-bottom: 15px;
+}
+
+.btn {
+    background-color: var(--color-blue);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.bg-img img {
+    width: 100%;
+}
+
+.register-shadow {
+    background-color: rgba(255, 255, 255, 0.532);
+    width: 70%;
+    height: 30%;
+    border-radius: 4px;
+    position: absolute;
+    left: 15%;
+    top: 90%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 26.5%;
+}
+
+.register-text {
+    margin-top: 5%;
+}
+
+.data h3 {
+    background-color: white;
+    color: grey;
+    padding: 7px 300px 7px 12px;
+}
+
+.register-btn {
+    background-color: var(--color-blue);
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.register-btn-block {
+    margin-top: 9px;
+}

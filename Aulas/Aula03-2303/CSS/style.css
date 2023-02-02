@@ -1,0 +1,70 @@
+/* importando google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: rgb(25, 27, 25);
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+h1 {
+    color: rgba(105, 218, 218, 0.815);
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+div {
+    width: 50%;
+    /* border-width: 4px;
+    border-style:double;
+    border-color: beige;
+    height: ; */
+    border: 5px double beige;
+    /* forma curta/preguiçosa */
+    margin: 20px auto;
+    /* tambem é possível fazer margin-top, especificar qual margin mexer */ 
+    /* se colocar 2 valores no margin, primeiro é bottom e top, o segundo é left e right */
+    /* se colocar 3 valores, 1. top 2. left e right 3. bottom */
+    padding: 50px;
+    box-sizing: border-box;
+    /* padding é o distanciamento entre borda da pagina e conteudo */
+    /* padding aumenta o tamanho do container */
+}
+/* border e padding ocupam espaço */
+
+/* border-width aparece em sentido horario, quanto menos px mais fina*/
+
+
+/* tamanho da fonte aparece com pixels e cor com rgb ou hexa */
+img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    /* object-fit faz com que a imagem não fique distorcida,  width de 100% faz com que a foto acomapnhe a div/100% 
+    do tamanho da divisão */
+}
+
+h2 {
+    color: darkmagenta;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+/* prestar atenção nos pixels, o h2 não pode ser maior que o h1 */
+
+p {
+    font-size: 16px;
+    color: darkorange;
+}
+/* 16px é o suficiente no p */
+
+a {
+    font-size: 20px;
+    color: gold;
+    text-decoration: none;
+}
+/* para tirar o sublinhado do link usar o text-decoration */
+
+
+/* margin distancia externa, no sentido horario (top, right, bottom, left), pode mexer em um lado apenas */

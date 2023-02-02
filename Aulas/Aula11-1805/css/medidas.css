@@ -1,0 +1,20 @@
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    /* font-size: 40px; */
+}
+
+.box {
+    /* font-size: 20px; */
+}
+
+.box p {
+    font-size: 1rem;  
+}
+
+a {
+    font-size: 3rem;
+}

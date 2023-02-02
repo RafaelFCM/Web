@@ -1,0 +1,1711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+/* esse é 1920x1080px */
+
+html {
+    font-size: 62.5%;
+    /* 62,5% de 16px = 10px */
+    /* 1 rem = 10px */
+}
+
+body {
+    background: linear-gradient(#1c0522, #2b1055);
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 100vw;
+}
+
+p {
+    line-height: 3.5rem;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    line-height: 1.2rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+section {
+    position: relative;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 110vh;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#estrelas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 108vh;
+}
+
+section img#lua {
+    position: absolute;
+    margin-top: 8rem;
+    left: 30rem;
+    width: 55rem;
+    height: 55rem;
+}
+
+section img#montanha_tras {
+    position: absolute;
+    margin-top: 62rem;
+    left: 82rem;
+    width: 70rem;
+    height: 60rem;
+}
+
+section img#montanha_frente {
+    position: absolute;
+    margin-top: 12rem;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+}
+
+section img#robo {
+    position: absolute;
+    top: 76rem;
+    left: 40rem;
+    z-index: 11;
+    width: 17rem;
+    height: 17rem;
+}
+
+#text {
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 11rem;
+    z-index: 9;
+    right: -80rem;
+    top: -3rem;
+}
+
+#btn {
+    text-decoration: none;
+    padding: 2.5rem 3rem;
+    border-radius: 4rem;
+    background: #fff;
+    color: #2b1055;
+    font-size: 5rem;
+    display: inline-block;
+    z-index: 9;
+    transform: translateY(10rem);
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+}
+
+.intro {
+    position: relative;
+    padding: 13rem;
+    
+}
+
+.title-intro {
+    font-size: 10rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.intro p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.carousel-robo img {
+    height: 70rem;
+}
+
+.bg-carousel-robo {
+    
+    height: 90vh;
+}
+
+.carousel-robo {
+    width: 80rem;
+}
+
+.bg-cards {
+    
+    height: 95vh;
+}
+
+.title-cards {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+    color: #fff;
+}
+
+.card-text {
+    line-height: 2.5rem;
+}
+
+.row {
+    width: 85%;
+    height: 100vh;
+    margin-left: 15rem;
+}
+
+.color-ppl {
+    color: #83498D;
+}
+
+.btn-outline-color-ppl {
+    --bs-btn-color: #83498D;
+    --bs-btn-border-color: #83498D;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #83498D;
+    --bs-btn-hover-border-color: #83498D;
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #83498D;
+    --bs-btn-active-border-color: #83498D;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #83498D;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #83498D;
+    --bs-gradient: none;
+}
+
+.card-1 img {
+    width: 23rem;
+    height: 31.5rem;
+}
+
+.card-2 img {
+    width: 23rem;
+    height: 29rem;
+}
+
+.card-3 img {
+    width: 40rem;
+    height: 31.5rem;
+}
+
+.bg-accordion {
+    
+    height: 85vh;
+}
+
+.hardware img {
+    width: 62rem;
+    height: 45rem;
+}
+
+.accordion {
+    width: 85rem;
+    margin-top: 1.7rem;
+    margin-left: -5rem;
+}
+
+.title-accordion {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+    color: #fff;
+}
+
+.bg-video {
+    
+    height: 100vh;
+}
+
+.title-video {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+    color: #fff;
+}
+
+.bg-grupo {
+    
+    height: 130vh;
+}
+
+.title-grupo {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.bg-grupo p {
+    color: #fff;
+}
+
+.carousel-grupo {
+    width: 70rem;
+}
+
+.carousel-grupo img {
+    height: 70rem;
+}
+
+.nome-grupo-span {
+    display: block;
+    font-size: 5rem;
+}
+
+.nome-grupo-span::after {
+    content: 'Rafael Fiel';
+    color: #83498D;
+    animation: solutions 7s infinite;
+    transition: 4s;
+}
+
+@keyframes solutions {
+
+    20% {
+        content: 'Igor Ferreira Santana';
+        color: #369;
+    }
+
+    40% {
+        content: 'Erik Hoon Ko';
+        color: #f60;
+    }
+
+    60% {
+        content: 'Guilherme Indiciate';
+        color: #090;
+    }
+
+    80% {
+        content: 'Felipe Gregório Araújo';
+        color: rgb(153, 10, 0);
+    }
+}
+
+.bg-robocup-next {
+    
+    height: 100vh;
+}
+
+.title-robocup-next {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.bg-robocup-next p {
+    color: #fff;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.vetor-robocup-next {
+    width: 70rem;
+    height: 70rem;
+    padding-right: 20rem;
+    padding-top: 15rem;
+}
+
+.title-contato {
+    font-size: 8rem;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15rem;
+    margin-left: 15rem;
+}
+
+.bg-contato {
+    
+    height: 125vh;
+    margin-top: -15rem;
+}
+
+.semi-bg-contato {
+    background: #fff;
+    height: 90vh;
+    width: 73vw;
+    border-radius: 0.8rem;
+}
+
+.contatinho {
+    height: 80vh;
+    width: 70vw;
+    background: #1c0522;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+form {
+    margin-top: 29rem;
+    margin-right: 3rem;
+}
+
+.btn-success {
+    margin-top: -43.5rem;
+    font-size: 3.5rem;
+}
+
+.vetor-contato {
+    width: 70rem;
+    height: 70rem;
+    margin-left: 3rem;
+    margin-top: 29rem;
+}
+
+textarea {
+    resize: none;
+    height: 30rem;
+}
+
+.img-logo-final {
+    height: 5rem;
+    width: 28rem;
+    bottom: 6rem;
+    left: 1rem;
+    position: absolute;
+}
+
+.icone {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.fa-facebook {
+    left: 1rem;
+}
+
+.fa-instagram {
+    left: 7.5rem;
+}
+
+.fa-whatsapp {
+    left: 13.5rem;
+}
+
+.fa-twitter {
+    left: 19rem;
+}
+
+.fa-envelope {
+    left: 25rem;
+}
+
+@media(max-width: 1280px) {
+    /* esse é 1280x720px */
+
+    header ul li {
+        margin-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    section {
+        height: 115vh;
+    }
+
+    section img#estrelas {
+        height: 112vh;
+    }
+
+    section img#lua {
+        margin-top: 9rem;
+        left: 20rem;
+        width: 35rem;
+        height: 35rem;
+    }
+
+    section img#montanha_tras {
+        margin-top: 48rem;
+        left: 40rem;
+        width: 80rem;
+        height: 35rem;
+    }
+
+    section img#montanha_frente {
+        margin-top: 12rem;
+    }
+
+    section img#robo {
+        top: 62rem;
+        left: 27rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #text {
+        font-size: 6rem;
+        right: -35rem;
+        top: 10rem;
+    }
+
+    #btn {
+        font-size: 2.5rem;
+    }
+
+    .intro {
+        padding: 10rem;
+    }
+
+    .title-intro {
+        font-size: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    .intro p {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .carousel-robo img {
+        width: 53.6rem;
+        height: 47rem;
+    }
+
+    .carousel-robo {
+        width: 53.6rem;
+        height: 47rem;
+        margin-top: -2rem;
+    }
+
+    .bg-carousel-robo {
+        height: 80vh;
+    }
+
+    .row {
+        margin-left: 10rem;
+    }
+
+    .bg-cards {
+        height: 110vh;
+    }
+
+    .card-1 img {
+        width: 15.4rem;
+        height: 20.1rem;
+    }
+
+    .card-2 img {
+        width: 15.4rem;
+        height: 20.1rem;
+    }
+
+    .card-3 img {
+        width: 26.8rem;
+        height: 22.5rem;
+    }
+
+    .bg-accordion {
+        height: 95vh;
+    }
+
+    .hardware img {
+        width: 41.5rem;
+        height: 30.15rem;
+    }
+
+    .accordion {
+        width: 57rem;
+        margin-top: 1.4rem;
+        margin-left: -3.3rem;
+    }
+
+    .bg-video {
+        height: 90vh;
+    }
+
+    .bg-grupo {
+        height: 110vh;
+    }
+
+    .title-grupo {
+        font-size: 4.5rem;
+    }
+
+    .carousel-grupo {
+        width: 47rem;
+        height: 33.5rem;
+    }
+
+    .carousel-grupo img {
+        height: 33.5rem;
+        width: 47rem;
+    }
+
+    .nome-grupo-span {
+        font-size: 4.5rem;
+        margin-bottom: -3rem;
+    }
+
+    .bg-robocup-next {
+        height: 105vh;
+    }
+
+    .title-robocup-next {
+        font-size: 6.5rem;
+    }
+
+    .vetor-robocup-next {
+        width: 47rem;
+        height: 47rem;
+        padding-right: 13.4rem;
+        padding-top: 10rem;
+    }
+
+    .title-contato {
+        margin-bottom: 2rem;
+    }
+
+    .bg-contato {
+        height: 135vh;
+    }
+
+    .semi-bg-contato {
+        height: 78vh;
+        width: 65vw;
+        border-radius: 0.6rem;
+    }
+
+    .contatinho {
+        height: 70vh;
+        width: 60vw;
+        padding: 1.4rem;
+        border-radius: 0.6rem;
+    }
+
+    .row-form {
+        width: 100%;
+        height: 100vh;
+    }
+
+    form {
+        margin-right: 9rem;
+    }
+
+    .btn-success {
+        margin-top: -33rem;
+        margin-left: 11rem;
+        font-size: 2.7rem;
+    }
+
+    .vetor-contato {
+        width: 70rem;
+        margin-top: 45rem;
+        margin-left: -15rem;
+    }
+
+    textarea {
+        height: 23rem;
+    }
+
+    .img-logo-final {
+        width: 22rem;
+        height: 4rem;
+        right: 6rem;
+        bottom: 5.5rem;
+    }
+
+    .icone {
+        font-size: 3rem;
+        bottom: 1rem;
+    }
+
+    .fa-instagram {
+        left: 6rem;
+    }
+
+    .fa-whatsapp {
+        left: 11rem;
+    }
+
+    .fa-twitter {
+        left: 15.5rem;
+    }
+
+    .fa-envelope {
+        left: 20rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    /* esse é 1024x768px */
+
+    header {
+        padding: 2rem 8rem;
+        margin-top: -1rem;
+        padding: 0.5rem 2rem;
+        line-height: 2.5rem;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header ul {
+        margin-top: 2rem;
+        margin-right: -2rem;
+    }
+
+    header ul li {
+        margin-top: 0rem;
+    }
+
+    section img#lua {
+        margin-top: 10rem;
+        left: 11rem;
+    }
+
+    section img#montanha_tras {
+        margin-top: 52rem;
+        left: 27rem;
+    }
+
+    section img#estrelas {
+        height: 108vh;
+        /* qq coisa usar 112vh */
+    }
+
+    section img#robo {
+        top: 65rem;
+        left: 18rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #text {
+        top: 17rem;
+    }
+
+    .title-intro {
+        font-size: 6rem;
+    }
+
+    .bg-carousel-robo {
+        height: 70vh;
+    }
+
+    .title-cards {
+        font-size: 6rem;
+    }
+
+    .bg-cards {
+        height: 113vh;
+    }
+
+    .card-1 img {
+        width: 12.3rem;
+        height: 22rem;
+    }
+
+    .card-2 img {
+        width: 12.3rem;
+        height: 19.6rem;
+    }
+
+    .card-3 img {
+        width: 21.4rem;
+        height: 22rem;
+    }
+
+    .title-accordion {
+        font-size: 6rem;
+    }
+
+    .hardware img {
+        width: 33.2rem;
+        height: 32.17rem;
+    }
+
+    .bg-accordion {
+        height: 100vh;
+    }
+
+    .accordion {
+        width: 45.6rem;
+    }
+
+    .title-video {
+        font-size: 6rem;
+    }
+
+    .bg-video {
+        height: 65vh;
+    }
+
+    .bg-grupo {
+        height: 97vh;
+    }
+
+    .bg-robocup-next {
+        height: 99vh;
+    }
+
+    .title-robocup-next {
+        font-size: 6rem;
+    }
+
+    .vetor-robocup-next {
+        padding-right: 16rem;
+    }
+
+    .title-contato {
+        margin-bottom: 1.5rem;
+        font-size: 6rem;
+    }
+
+    form {
+        margin-right: 8.5rem;
+    }
+
+    .btn-success {
+        margin-top: -35.4rem;
+        margin-right: 8rem;
+        font-size: 2.3rem;
+    }
+
+    .vetor-contato {
+        width: 90rem;
+        margin-top: 52rem;
+        margin-left: -13rem;
+    }
+
+    .img-logo-final {
+        width: 18rem;
+        height: 4rem;
+        right: 6rem;
+        bottom: 5rem;
+    }
+
+    .icone {
+        font-size: 2.3rem;
+    }
+
+    .fa-instagram {
+        left: 5.3rem;
+    }
+
+    .fa-whatsapp {
+        left: 9.3rem;
+    }
+
+    .fa-twitter {
+        left: 13rem;
+    }
+
+    .fa-envelope {
+        left: 16.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    /* esse é 768x1024px */
+
+    header img {
+        display: none;
+    }
+
+    header ul {
+        margin-left: -5rem;
+        margin-top: 2rem;
+    }
+
+    section img#lua {
+        margin-top: 8rem;
+        left: 2rem;
+    }
+
+    section img#estrelas {
+        width: 100%;
+        height: 65vh;
+    }
+
+    section img#montanha_tras {
+        margin-top: 43rem;
+        left: 21rem;
+        width: 55rem;
+        height: 24rem;
+    }
+
+    section img#montanha_frente {
+        width: 77rem;
+        height: 50rem;
+        margin-top: 19rem;
+    }
+
+    section img#robo {
+        top: 52rem;
+        left: 7rem;
+    }
+
+    #text {
+        top: 13rem;
+        font-size: 4rem;
+    }
+
+    #btn {
+        font-size: 2rem;
+        margin-left: 10rem;
+        margin-bottom: 10rem;
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        height: 67vh;
+    }
+
+    section::before {
+        width: 100%;
+        height: 10rem;
+        background: linear-gradient(to top, #1c0522, transparent);
+        z-index: 1000;
+    }
+
+    .title-intro {
+        font-size: 4rem;
+    }
+
+    .intro {
+        margin-top: -2rem;
+    }
+
+    .intro p {
+        font-size: 1.3rem;
+    }
+
+    .title-cards {
+        font-size: 4rem;
+    }
+
+    .bg-carousel-robo {
+        height: 60vh;
+        margin-top: -3rem;
+    }
+
+    .bg-cards {
+        height: 117vh;
+        margin-top: -5rem;
+    }
+
+    .card-1 img {
+        width: 9.23rem;
+        height: 27.25rem;
+    }
+
+    .card-2 img {
+        width: 9.23rem;
+        height: 24.6rem;
+    }
+
+    .card-3 img {
+        width: 16rem;
+        height: 29.5rem;
+    }
+
+    .bg-accordion {
+        height: 113vh;
+        margin-top: -12rem;
+    }
+
+    .hardware img {
+        width: 65rem;
+        height: 35rem;
+        margin-left: -5rem;
+    }
+
+    .title-accordion {
+        font-size: 4rem;
+    }
+
+    .accordion {
+        width: 65rem;
+        margin-top: 40rem;
+        margin-left: -37rem;
+    }
+
+    .title-video {
+        font-size: 4rem;
+    }
+
+    .bg-video {
+        height: 42vh;
+        margin-top: -5rem;
+    }
+
+    .bg-video iframe {
+        margin-left: -4rem;
+    }
+
+    .bg-grupo {
+        height: 75vh;
+        margin-top: -4rem;
+    }
+
+    .title-grupo {
+        font-size: 3.5rem;
+    }
+
+    .carousel-grupo {
+        width: 45rem;
+    }
+
+    .carousel-grupo img {
+        height: 30rem;
+    }
+
+    .nome-grupo-span {
+        font-size: 3.5rem;
+    }
+
+    .bg-robocup-next {
+        margin-top: -5rem;
+        height: 115vh;
+    }
+
+    .title-robocup-next {
+        font-size: 4rem;
+    }
+
+    .vetor-robocup-next {
+        padding-right: 25rem;
+    }
+
+    .bg-robocup-next p {
+        font-size: 1.2rem;
+    }
+
+    .title-contato {
+        font-size: 4rem;
+    }
+
+    .bg-contato {
+        margin-top: -71rem;
+        height: 100vh;
+    }
+
+    form {
+        margin-left: -11.5rem;
+        width: 100%;
+    }
+
+    .btn-success {
+        margin-top: -52rem;
+        margin-left: 0.005rem;
+        font-size: 2rem;
+    }
+
+    .vetor-contato {
+        display: none;
+    }
+
+    .img-logo-final {
+        width: 18rem;
+        height: 4rem;
+        left: 15rem;
+        bottom: 5rem;
+    }
+
+    .icone {
+        font-size: 2.3rem;
+    }
+
+    .fa-facebook {
+        left: 15rem;
+    }
+
+    .fa-instagram {
+        left: 19rem;
+    }
+
+    .fa-whatsapp {
+        left: 23rem;
+    }
+
+    .fa-twitter {
+        left: 26.7rem;
+    }
+
+    .fa-envelope {
+        left: 30.5rem;
+    }
+}
+
+@media(max-width: 468px) {
+    /* esse é 468x800px */
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    header ul {
+        margin-left: -5rem;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-top: -1rem;
+        line-height: 1.3rem;
+
+    }
+
+    header img {
+        display: none;
+    }
+
+    header ul li {
+        list-style: none;
+        padding-bottom: 1rem;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        padding: 0.6rem 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    section img#lua {
+        margin-top: 7rem;
+        left: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    section img#estrelas {
+        width: 100%;
+        height: 55vh;
+    }
+
+    section img#montanha_tras {
+        margin-top: 28rem;
+        left: 13rem;
+        width: 35rem;
+        height: 14rem;
+    }
+
+    section img#montanha_frente {
+        width: 46.8rem;
+        height: 35rem;
+        margin-top: 9rem;
+    }
+
+    section img#robo {
+        top: 34rem;
+        left: 1rem;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    #text {
+        top: 15rem;
+        font-size: 3rem;
+        right: -10rem;
+    }
+
+    #btn {
+        font-size: 2rem;
+        margin-left: 8rem;
+        margin-bottom: 15rem;
+        padding: 1rem 1.7rem;
+    }
+
+    section {
+        height: 55vh;
+        padding: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    section::before {
+        width: 100%;
+        height: 10rem;
+        background: linear-gradient(to top, #1c0522, transparent);
+        z-index: 1000;
+    }
+
+    .intro {
+        padding: 4rem;
+        height: 65vh;
+    }
+
+    .title-intro {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        line-height: 2.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .carousel-robo img {
+        width: 40rem;
+    }
+
+    .bg-carousel-robo {
+        height: 75vh;
+    }
+
+    .carousel-robo {
+        width: 40rem;
+        margin-top: -2rem;
+    }
+
+    .title-cards {
+        font-size: 4rem;
+        margin-left: 3rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .bg-cards {
+        position: relative;
+        height: 230vh;
+    }
+
+    .card-1 {
+        position: absolute;
+        right: 10rem;
+        left: 10rem;
+    }
+
+    .card-2 {
+        position: absolute;
+        top: 63rem;
+        left: 10rem;
+        right: 10rem;
+    }
+
+    .card-3 {
+        position: absolute;
+        top: 118rem;
+        left: 10rem;
+        right: 10rem;
+    }
+
+    .card-3 img {
+        width: 20rem;
+        height: 22rem;
+    }
+
+    .bg-accordion {
+        height: 140vh;
+        position: relative;
+    }
+
+    .title-accordion {
+        font-size: 4rem;
+        margin-left: 3rem;
+    }
+
+    .hardware img {
+        width: 35rem;
+        height: 35rem;
+        left: 12rem;
+        top: 7rem;
+        position: absolute;
+    }
+
+    .accordion {
+        width: 35rem;
+        position: absolute;
+        left: 44rem;
+        top: 5rem;
+    }
+
+    .title-video {
+        font-size: 4rem;
+        margin-left: 3rem;
+    }
+
+    .bg-video {
+        position: relative;
+        height: 112vh;
+    }
+
+    .ratio-mov {
+        position: absolute;
+        left: 4rem;
+        top: 6rem;
+    }
+
+    .ratio-const {
+        position: absolute;
+        left: 4rem;
+        top: 45rem;
+    }
+
+    .bg-grupo {
+        height: 100vh;
+        position: relative;
+    }
+
+    .bg-grupo p {
+        position: absolute;
+        left: 3rem;
+        top: 20rem;
+    }
+
+    .title-grupo {
+        font-size: 3.5rem;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .carousel-grupo {
+        width: 35rem;
+        margin-top: 40rem;
+    }
+
+    .carousel-grupo img {
+        height: 30rem;
+    }
+
+    .bg-robocup-next {
+        height: 155vh;
+        position: relative;
+    }
+
+    .title-robocup-next {
+        font-size: 4rem;
+        margin-left: 3rem;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .vetor-robocup-next {
+        display: none;
+    }
+
+    .bg-robocup-next p {
+        font-size: 1.2rem;
+        position: absolute;
+        left: 4rem;
+        top: 7rem;
+    }
+
+    .ratio-robocup {
+        position: absolute;
+        left: -0.05rem;
+        top: 33rem;
+    }
+
+    .title-contato {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .bg-contato {
+        height: 145vh;
+        position: relative;
+    }
+
+    .semi-bg-contato {
+        height: 129vh;
+    }
+
+    .contatinho {
+        height: 125vh;
+
+    }
+
+    form {
+        width: 27rem;
+        position: absolute;
+        margin-top: -10rem;
+    }
+
+    .btn-success {
+        position: absolute;
+        bottom: 2rem;
+        left: 14rem;
+    }
+
+    .vetor-contato {
+        display: none;
+    }
+
+    .img-logo-final {
+        left: 5.5rem;
+        bottom: 4rem;
+    }
+
+    .icone {
+        font-size: 2.3rem;
+    }
+
+    .fa-facebook {
+        left: 5.5rem;
+    }
+
+    .fa-instagram {
+        left: 9.5rem;
+    }
+
+    .fa-whatsapp {
+        left: 13.5rem;
+    }
+
+    .fa-twitter {
+        left: 17.2rem;
+    }
+
+    .fa-envelope {
+        left: 21rem;
+    }
+}
+
+@media(max-width: 390px) {
+    /* esse é 390x710px */
+
+    body {
+        font-size: 1rem;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -2rem;
+        line-height: 1.2rem;
+    }
+
+    header ul {
+        margin-right: -5rem;
+    }
+
+    header ul li {
+        list-style: none;
+        padding-bottom: 1rem;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        padding: 0.6rem 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    section img#lua {
+        margin-top: 7rem;
+        left: 3rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    section img#estrelas {
+        width: 100%;
+        height: 60vh;
+    }
+
+    section img#montanha_tras {
+        margin-top: 25rem;
+        left: 10rem;
+        width: 35rem;
+        height: 20rem;
+    }
+
+    section img#montanha_frente {
+        width: 39rem;
+        height: 38rem;
+        margin-top: 7rem;
+    }
+
+    section img#robo {
+        top: 34rem;
+        left: -5rem;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    #text {
+        top: 6rem;
+        font-size: 3rem;
+        right: -35rem;
+    }
+
+    section {
+        height: 65vh;
+        padding: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    section::before {
+        width: 100%;
+        height: 10rem;
+        background: linear-gradient(to top, #1c0522, transparent);
+        z-index: 1000;
+    }
+
+    .intro {
+        padding: 4rem;
+        height: 75vh;
+    }
+
+    .title-intro {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .bg-carousel-robo {
+        height: 80vh;
+    }
+
+    .carousel-robo {
+        width: 35rem;
+        margin-top: -2rem;
+    }
+
+    .title-cards {
+        font-size: 3rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .bg-cards {
+        position: relative;
+        height: 278vh;
+    }
+
+    .card-1 {
+        position: absolute;
+        right: 10rem;
+        left: 10rem;
+        top: 1;
+    }
+
+    .card-2 {
+        position: absolute;
+        top: 69.5rem;
+        left: 10rem;
+        right: 10rem;
+    }
+
+    .card-3 {
+        position: absolute;
+        top: 132rem;
+        left: 10rem;
+        right: 10rem;
+    }
+
+    .card-3 img {
+        width: 13rem;
+        height: 15rem;
+    }
+
+    .bg-accordion {
+        height: 150vh;
+        position: relative;
+    }
+
+    .title-accordion {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .hardware img {
+        height: 30rem;
+        left: 7.5em;
+        top: 5rem;
+        position: absolute;
+    }
+
+    .accordion {
+        position: absolute;
+        left: 39.5rem;
+        top: -2rem;
+    }
+
+    .title-video {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .bg-video {
+        position: relative;
+        height: 100vh;
+    }
+
+    .ratio-mov {
+        position: absolute;
+        left: 6rem;
+        top: 5rem;
+        width: 35rem;
+    }
+
+    .ratio-const {
+        position: absolute;
+        left: 6rem;
+        top: 34rem;
+        width: 35rem;
+    }
+
+    .bg-grupo {
+        height: 120vh;
+        position: relative;
+    }
+
+    .bg-grupo p {
+        position: absolute;
+        left: 1rem;
+        top: 25rem;
+    }
+
+    .title-grupo {
+        font-size: 3rem;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .carousel-grupo {
+        width: 35rem;
+        margin-top: 45rem;
+    }
+
+    .carousel-grupo img {
+        height: 30rem;
+    }
+
+    .bg-robocup-next {
+        height: 172vh;
+        position: relative;
+    }
+
+    .title-robocup-next {
+        font-size: 3rem;
+        margin-left: 3rem;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .vetor-robocup-next {
+        display: none;
+    }
+
+    .bg-robocup-next p {
+        font-size: 1.2rem;
+        position: absolute;
+        left: 4rem;
+        top: 5.5rem;
+    }
+
+    .ratio-robocup {
+        position: absolute;
+        left: -0.05rem;
+        top: 38rem;
+    }
+
+    form {
+        width: 23rem;
+        margin-top: -15rem;
+    }
+
+    .bg-contato {
+        height: 150vh;
+        position: relative;
+    }
+
+    .semi-bg-contato {
+        height: 134vh;
+    }
+
+    .contatinho {
+        height: 130vh;
+    }
+
+    .btn-success {
+        position: absolute;
+        bottom: -1rem;
+        left: 12rem;
+    }
+
+    .img-logo-final {
+        left: 2.7rem;
+        bottom: 4rem;
+    }
+
+    .icone {
+        font-size: 2.3rem;
+    }
+
+    .fa-facebook {
+        left: 2.7rem;
+    }
+
+    .fa-instagram {
+        left: 7rem;
+    }
+
+    .fa-whatsapp {
+        left: 11rem;
+    }
+
+    .fa-twitter {
+        left: 14.7rem;
+    }
+
+    .fa-envelope {
+        left: 18.5rem;
+    }
+}

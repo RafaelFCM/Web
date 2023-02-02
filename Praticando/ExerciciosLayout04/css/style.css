@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.interface {
+    width: 1000px;
+    margin: 10px auto 20px auto;
+}
+
+.menu {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.logo h2{
+    color: rgb(255, 77, 0);
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.photo-text {
+    display: block;
+    text-align: right;
+}
+
+.photo-text img {
+    width: 1000px;
+}
+
+.photo-text h2 {
+    margin-top: -210px;
+    margin-bottom: 140px;
+    margin-right: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-left {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.card-middle {
+    text-align: center;
+}
+
+.card-right {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.cards h3 {
+    color: rgb(255, 77, 0);
+    margin-bottom: 15px;
+}
+
+.cards p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 77, 0);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+span {
+    color: rgb(255, 77, 0);
+    font-weight: bolder;
+    font-size: 18px;
+}

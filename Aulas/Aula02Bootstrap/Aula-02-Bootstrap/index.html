@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Grid System</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+<body>
+
+    <div class="container my-5">
+        <!-- linha do grid -->
+        <div class="row">
+            <!-- 1a. coluna -->
+            <div class="col-12 col-sm-12 col-md-6">
+                <img src="./images/developer-activity-animate.svg" alt="Primeira Imagem">
+            </div>
+            <!-- fim 1a. coluna -->
+            <!-- 2a. coluna -->
+            <div class="col-12 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center "> 
+                <h2 class="display-2 my-color">MyWeb</h2>
+                <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus dicta laudantium repudiandae? Tempore excepturi dolorum atque veniam ex? Alias!</p>
+                <a href="" class="btn btn-outline-my-color">Mais informações</a>
+
+            </div>
+            <!-- fim 2a. coluna -->
+        </div>
+        <!-- fim linha do grid -->
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- conjunto de class css = framework = bootstrap (existem site q usam versões antigas)
+é responsivo, é mobile first (prioriza o celular)
+
+NPM (node)
+
+arquivo em produção/está o ar ele é minimizado, tira todos espaços em branco, todos comentarios, tudo, é minificado por programas.
+ai carrega mais rapido durante a aplicação
+
+Bootstrap tem 8 class:
+Container - max width de 1320px
+(na propria class colocou bg-colour (usou cor do site), colocou fluid (colado na margem))
+obs: coloca class em td, pdc bem específico
+p-1a5 = padding (é como o rem, multiplica pelo valor padrao em px); pt=padding-top, pb=padding-bottom, ps=padding-start(left), pe-padding=end(right); py=plano cartesiano(2D)
+obs: acha todas essas nomenclaturas no margin no site
+p-1a5 = margin
+
+display usa no h1, h2 etc
+
+btn-danger (cor), btn-lg(large), btn-sm(small), btn-outline(hover)
+
+img-thumbnail faz uma moldura na imagem; img-fluid deixa responsivo
+
+https://getbootstrap.com/
+
+cria padroes de cores quando usa muitas paletas/cores iguais etc:
+:root {
+    --blue-30: hsl(240, 100%, 30%);
+    --blue-50: hsl(240, 100%, 50%);
+    --blue-70: hsl(240, 100%, 70%);
+    --blue-90: hsl(240, 100%, 90%);
+}
+
+.bg-blue {
+    background-color: var(--blue-30);
+}
+
+.text-blue {
+    color: var(--blue-70);
+} -->
+
+<!-- AULA 02
+
+Botao direito, format document with beautify
+viewport = area de exibição, verifica o css/formatação e configura pra mudar em diferentes telas/dispositivos
+grid=viewport
+para usar grid precisa de uma linha (row)
+
+https://storyset.com/ = vetores (imagem vetorizada, png)
+
+lembrando, tudo que quer formatar sem usar o css precisa usar o class
+
+ColorZilla = extensão Chrome, usa para diagnosticar cores de qualquer site, ai pode pegar as config da cor e usar no css
+
+class: lead = maior e mais fino a letra
+
+baixar todos codigos -> bootstrap -> docs -> download -> css and js download
+
+class: d-flex = display:flex
+
+class: col-12 col-sm-12 col-md-6 = 
+-->

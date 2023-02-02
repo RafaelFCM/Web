@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-purple: rgb(99, 68, 74);
+}
+
+.middle {
+    margin: 1.25% auto 1.25% auto;
+    /* 1.25rem */
+    width: 78.9%;
+    /* 1000px ou 62.5rem */
+}
+
+.menu {
+    background-color: var(--color-purple);
+    display: flex;
+    align-items: center;
+    height: 2.81rem;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-left: 7.187rem; */
+    margin-left: 9.1%;
+}
+
+.menu-left img {
+    width: 2.187rem;
+    height: 2.062rem;
+}
+
+h1 {
+    padding-left: 0.3125rem;
+    margin-right: 6.25rem;
+    color: white;
+    font-size: 1.562rem;
+}
+
+ul {
+    display: flex;
+    margin-left: 24.687rem;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 3.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.image-text {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.side-text {
+    display: block;
+    text-align: justify;
+    margin-left: 0.937rem;
+}
+
+.side-text h2 {
+    font-size: 1.562rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.8125rem;
+    color: var(--color-purple);
+}
+
+.side-text p {
+    font-size: 0.8125rem;
+    margin-bottom: 1.562rem;
+}
+
+.btn {
+    background-color: var(--color-purple);
+    padding: 0.625rem;
+    font-size: 0.8125rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons h3 {
+    color: var(--color-purple);
+    margin-top: 0.625rem;
+}
+
+.icon-left {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.25rem;
+}
+
+.icon-middle {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.4375rem;
+    margin-right: 0.4375rem;
+}
+
+.icon-right {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25rem;
+}
+
+.icon-1 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.icon-2 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+}
+
+.icon-3 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.icon-4 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+}
+
+.icon-5 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.icon-6 {
+    border: 0.0625rem solid;
+    border-color: var(--color-purple);
+    text-align: center;
+    padding: 0.3125rem 5.625rem;
+}

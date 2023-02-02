@@ -1,0 +1,234 @@
+/* reset css
+asterisco representa todos os elementos
+existentes ma página
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis */
+:root {
+    --color-light: #fff;
+    --color-dark: #000;
+    --color-pink: #dc143c;    
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+.header-page {
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    /* alinhamento vertical */
+    align-items: center;
+
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    padding: 0 10px;
+    position: absolute;
+}
+
+.header-title {
+    font-size: 40px;
+    color: var(--color-light);
+}
+
+.logo {
+    color: var(--color-pink);
+}
+
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 10px;
+}
+
+.header-menu a {    
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+
+.btn {
+    border: 1px solid var(--color-pink);
+    padding: 8px 25px;
+    background-color: var(--color-pink);
+    border-radius: 70px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--color-pink);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+/************************ hero ***************************/
+.hero {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.hero-text {
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+/*********************** fim hero ***********************/
+
+
+/*********************** card  ***********************/
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-item {
+    width: 30%;
+    height: 500px;
+    border: 1px solid var(--color-pink);
+    border-radius: 10px;
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.card-icone {
+    color: var(--color-light);
+    font-size: 50px;
+    border: 1px solid var(--color-pink);
+    padding: 25px;
+    border-radius: 50%;
+    background-color: var(--color-pink);
+    transition: .5s;
+}
+
+.card-icone:hover {
+    transform: rotate(1440deg);
+    cursor: pointer;
+}
+
+
+
+.card-title {
+    margin: 20px 0;
+}
+
+.card-text {
+    margin-bottom: 40px;
+}
+/*********************** fim card  ***********************/
+
+
+/************************ solution ************************/
+.solution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-light);
+}
+.solution-title {
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+.solution-text {
+    width: 60%;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.solution-span {
+    display: block;
+}
+
+.solution-span::after{
+    content: 'Agronegócio';
+    color: var(--color-pink);
+    animation: solutions 7s infinite;
+    transition: .5s;
+}
+
+@keyframes solutions {
+    
+    25% {
+        content: 'Educação';
+        color: #369;
+    }
+
+    50% {
+        content: 'Saúde';
+        color: #f60;
+    }
+
+    75% {
+        content: 'Transporte';
+        color: #090;
+    }
+}
+
+
+
+
+/************************ fim solution ********************/
+
+
+
+
+.bg-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0 ,0)),
+    url(../images/pexels-negative-space-34140.jpg);  
+}
+
+.bg-image-2 {
+    background-image: linear-gradient(rgba(9, 18, 56, 0.8), rgba(0, 0, 0 ,0)),
+    url(../images/pexels-picjumbocom-196659.jpg);
+}
+
+.bg-image-3 {
+    background-image: url(../images/pexels-pixabay-267447.jpg);
+}
+
+.bg-color-1 {
+    background-color: #000;
+}
