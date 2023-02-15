@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.menu h1 {
+    font-size: 5rem;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu {
+    height: 15em;
+}
+
+.bg-img-1 {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-img-2 {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+}
+
+section {
+    height: 40em;
+    font-family: 'Kalam', cursive;
+}
+
+p {
+    font-size: 2rem;
+}
