@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes sociais</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        // let icones = document.querySelector('.fa-brands');
+        // insta.addEventListener('click', function () {
+
+        // });
+
+        // document.querySelector('.fa-brands').addEventListener('click', function (e) {
+        //     e.preventDefault();
+
+        // });
+
+        function aparece() {
+            var iframe = document.querySelector("iframe");
+            iframe.style.display = "block";
+
+            this.reset();
+        };
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid fundo">
+        <div class="container iphone">
+            <iframe id="tela" name="frame" src="" frameborder="0" class="">
+            </iframe>
+        </div>
+        <div class="container menu-icones">
+            <div class="row">
+                <a href="https://www.instagram.com/" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/home?lang=pt" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://web.whatsapp.com/" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/rafaelfcmiranda/" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/RafaelFCM" target="frame" onclick="aparece()"><i
+                        class="fa-brands fa-github-square"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="https://kit.fontawesome.com/2ef2b520f8.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
